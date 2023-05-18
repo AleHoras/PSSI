@@ -1,4 +1,4 @@
-package minhacalculadora.telas;
+package telas;
 
 public class TelaPrincipal extends javax.swing.JFrame {
 
@@ -138,7 +138,12 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         jMenuBar1.add(mCalculadoras);
 
-        mSobre.setText("Sobre");
+        mSobre.setText("Formulário");
+        mSobre.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mSobreActionPerformed(evt);
+            }
+        });
         jMenuBar1.add(mSobre);
 
         setJMenuBar(jMenuBar1);
@@ -181,11 +186,14 @@ public class TelaPrincipal extends javax.swing.JFrame {
         calcIMC.setVisible(true);
     }//GEN-LAST:event_mIMCActionPerformed
 
+    private void mSobreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mSobreActionPerformed
+        CadastroPessoa form = new CadastroPessoa();
+        form.setVisible(true);
+    }//GEN-LAST:event_mSobreActionPerformed
+
     public static void main(String args[]) {
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new TelaPrincipal().setVisible(true);
-            }
+        java.awt.EventQueue.invokeLater(() -> {
+            new TelaPrincipal().setVisible(true);
         });
     }
 

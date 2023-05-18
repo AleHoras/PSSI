@@ -1,6 +1,6 @@
-package minhacalculadora;
+package dominio;
 
-import minhacalculadora.telas.TelaPrincipal;
+import telas.TelaPrincipal;
 
 public class Calculadoras {
 

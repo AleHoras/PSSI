@@ -158,8 +158,11 @@
         </Menu>
         <Menu class="javax.swing.JMenu" name="mSobre">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Sobre"/>
+            <Property name="text" type="java.lang.String" value="Formul&#xe1;rio"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mSobreActionPerformed"/>
+          </Events>
         </Menu>
       </SubComponents>
     </Menu>

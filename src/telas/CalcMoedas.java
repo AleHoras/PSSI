@@ -1,4 +1,4 @@
-package minhacalculadora.telas;
+package telas;
 
 public class CalcMoedas extends javax.swing.JFrame {
 

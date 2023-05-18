@@ -1,6 +1,6 @@
-package minhacalculadora.telas;
+package telas;
 
-import minhacalculadora.MatematicaSimples;
+import dominio.MatematicaSimples;
 
 public class CalcSimples extends javax.swing.JFrame {
 

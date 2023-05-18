@@ -1,5 +1,5 @@
 
-package minhacalculadora;
+package dominio;
 
 
 public class TMB {

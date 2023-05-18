@@ -1,4 +1,4 @@
-package minhacalculadora;
+package dominio;
 
 public class MatematicaSimples {
     private Double n1;

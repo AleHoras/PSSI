@@ -1,6 +1,6 @@
-package minhacalculadora.telas;
+package telas;
 
-import minhacalculadora.IMC;
+import dominio.IMC;
 
 public class CalcIMC extends javax.swing.JFrame {
 
@@ -21,7 +21,7 @@ public class CalcIMC extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         lblIMC.setText("IMC");
 
